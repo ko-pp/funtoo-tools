@@ -12,4 +12,3 @@ for package in tree:
         for inherit in inherited:
             if 'linux-info' in inherit:
                 print('={version}'.format(version=version))
-
