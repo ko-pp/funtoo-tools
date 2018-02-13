@@ -11,4 +11,4 @@ for package in tree:
         inherited = dbapi.aux_get(version, ["INHERITED"])
         for inherit in inherited:
             if 'linux-info' in inherit:
-                print('={version}'.format(version=version))
+                print('>={version}'.format(version=version))
